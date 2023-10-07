@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400;1,800&display=swap");
+* {
+  font-family: "poppins", sans-serif;
+  padding: 10px;
+  margin: 0% auto;
+}
+h1,
+h2,
+h3,
+ul,
+.h1 {
+  color: aliceblue;
+  text-align: center;
+}
+img src {
+  margin: 10% auto;
+}
+body {
+  color: blanchedalmond;
+}
+
+main,
+head,
+h1,
+.black-border {
+  margin: 1%;
+  border: 10px solid rgb(92, 84, 94);
+  padding: 20px 10px;
+}
+body,
+#backgroundcolor {
+  background-color: black;
+}
+ul {
+  list-style-type: none;
+}
+
+.ul2 {
+  color: blue;
+}
+hr,
+.hr {
+  color: black;
+  border-color: black;
+}
+.logo {
+  height: 2cm;
+  width: 3cm;
+}
+
+.li1 {
+  display: flex;
+  background-color: darkblue;
+  justify-content: space-between;
+}
+
+.li1:first-child {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.li1 a:hover {
+  background-color: lightblue;
+}
+.searchbar:focus {
+  border: aqua solid 10px;
+}
+
+.li2 a:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.li3 a:active {
+  color: red;
+  font-weight: italic;
+}
+
+.avisited:visited {
+  color: yellow;
+}
+
+a {
+  color: blue;
+}
+
+.textarea:focus {
+  color: green;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 320px) {
+  h1 {
+    font-size: 10px;
+  }
+}
+
+h1 {
+  font-size: 100px;
+}
